@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samu.X_X | Servicios de Discord</title>
+  <meta name="description"
+    content="Servicios profesionales de Discord: creación de servidores, bots, moderación y diseño.">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-content">
+      <a href="#home" class="logo">
+        <img src="./assets/logo.png" alt="Samu.X_X Logo" class="logo-img">
+        <span>Samu.X_X</span>
+      </a>
+
+      <ul class="desktop-menu">
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#services">Mis Servicios</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+
+      <div class="mobile-toggle" id="mobile-toggle">
+        <i class="fa-solid fa-bars" id="toggle-icon"></i>
+      </div>
+    </div>
+
+    <div class="mobile-menu" id="mobile-menu">
+      <ul>
+        <li><a href="#home" class="mobile-link">Inicio</a></li>
+        <li><a href="#services" class="mobile-link">Mis Servicios</a></li>
+        <li><a href="#contact" class="mobile-link">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-background">
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+      </div>
+
+      <div class="container hero-container">
+        <div class="hero-text fade-in-section">
+          <span class="subtitle">CALIDAD GARANTIZADA</span>
+          <h1>
+            Servicios de Discord <br />
+            <span class="gradient-text">Profesionales</span>
+          </h1>
+          <p>
+            Lleva tu comunidad al siguiente nivel. Creación experta, configuración segura y moderación efectiva para tu
+            servidor.
+          </p>
+          <a href="#services" class="cta-button">
+            Ver Mis Servicios <i class="fa-solid fa-arrow-right arrow-icon"></i>
+          </a>
+        </div>
+
+        <div class="hero-image fade-in-section" style="transition-delay: 0.2s;">
+          <div class="image-wrapper">
+            <img src="./assets/hero-image.png" alt="Discord Services Illustration">
+            <div class="image-glow"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+      <div class="container">
+        <div class="section-header fade-in-section">
+          <h2>Mis Servicios</h2>
+          <div class="underline"></div>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service 1 -->
+          <div class="service-card fade-in-section" style="transition-delay: 0.1s;">
+            <div class="icon-wrapper">
+              <i class="fa-solid fa-server"></i>
+            </div>
+            <h3>Creación de Servidores</h3>
+            <p>Diseño desde cero con arquitectura profesional. Configuración perfecta de canales, roles y permisos para
+              comunidades activas.</p>
+            <div class="card-bg-glow"></div>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="service-card fade-in-section" style="transition-delay: 0.2s;">
+            <div class="icon-wrapper">
+              <i class="fa-solid fa-robot"></i>
+            </div>
+            <h3>Configuración de Bots</h3>
+            <p>Instalación avanzada de bots como Mee6, Dyno, Carl-bot. Sistemas de música, niveles y automatización de
+              procesos.</p>
+            <div class="card-bg-glow"></div>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="service-card fade-in-section" style="transition-delay: 0.3s;">
+            <div class="icon-wrapper">
+              <i class="fa-solid fa-shield-alt"></i>
+            </div>
+            <h3>Moderación y Seguridad</h3>
+            <p>Protección integral con sistemas anti-raid y verificación. Estrategias de moderación para mantener tu
+              comunidad segura.</p>
+            <div class="card-bg-glow"></div>
+          </div>
+
+          <!-- Service 4 -->
+          <div class="service-card fade-in-section" style="transition-delay: 0.4s;">
+            <div class="icon-wrapper">
+              <i class="fa-solid fa-palette"></i>
+            </div>
+            <h3>Diseño Estético</h3>
+            <p>Identidad visual única con emojis personalizados, webhooks elegantes y una estructura visualmente limpia
+              y moderna.</p>
+            <div class="card-bg-glow"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="discord-layout fade-in-section">
+          <div class="discord-info">
+            <div class="section-header">
+              <h2>Únete a mi Discord</h2>
+              <div class="underline" style="margin: 15px auto 0;"></div>
+            </div>
+            <p class="discord-msg" style="margin-bottom: 40px;">Sé parte de nuestra comunidad.
+              Resolvemos tus dudas, compartimos consejos y gestionamos tus tickets de soporte directamente aquí.</p>
+            <a href="https://discord.gg/d8yNWZ3asc" target="_blank" rel="noopener noreferrer"
+              class="discord-button-wide" style="margin: 0; max-width: 300px;">
+              <i class="fa-brands fa-discord"></i>
+              <span>Unirse al Servidor</span>
+            </a>
+          </div>
+
+          <div class="discord-widget-wrapper">
+            <div class="iframe-wrapper">
+              <iframe src="https://discord.com/widget?id=1467956163587997872&theme=dark" width="350" height="500"
+                allowtransparency="true" frameborder="0"
+                sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-grid">
+      <div>
+        <h4>Samu.X_X</h4>
+        <p>Configuración y gestión de servidores de Discord.</p>
+      </div>
+
+      <div>
+        <h4>Navegación</h4>
+        <a href="#home">Inicio</a>
+        <a href="#services">Servicios</a>
+        <a href="#contact">Contacto</a>
+      </div>
+
+      <div class="footer-contact-info">
+        <h4>Contacto</h4>
+        <div class="contact-item">
+          <i class="fa-brands fa-discord"></i>
+          <span>samu.x_x</span>
+        </div>
+        <a href="mailto:samu.x.services@gmail.com" class="contact-item">
+          <i class="fa-solid fa-envelope"></i>
+          <span>samu.x.services@gmail.com</span>
+        </a>
+      </div>
+    </div>
+
+    <div class="legal">
+      © 2026 Samu.X_X. Todos los derechos reservados.<br />
+      Servicio independiente. No afiliado oficialmente con Discord Inc.
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+  <script>
+    // Animations or other scripts can go here if needed
+  </script>
+</body>
+
+</html>
